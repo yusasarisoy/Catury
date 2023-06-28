@@ -18,6 +18,7 @@
 		44E65BA72A4CC91E00F1A1EC /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65BA62A4CC91E00F1A1EC /* APIConstants.swift */; };
 		44E65BA92A4CC95F00F1A1EC /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65BA82A4CC95F00F1A1EC /* RequestProtocol.swift */; };
 		44E65BAB2A4CCA2000F1A1EC /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65BAA2A4CCA2000F1A1EC /* APIManager.swift */; };
+		44E65BAD2A4CCAC900F1A1EC /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65BAC2A4CCAC900F1A1EC /* RequestManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		44E65BA62A4CC91E00F1A1EC /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		44E65BA82A4CC95F00F1A1EC /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
 		44E65BAA2A4CCA2000F1A1EC /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		44E65BAC2A4CCAC900F1A1EC /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			children = (
 				44E65BAA2A4CCA2000F1A1EC /* APIManager.swift */,
 				44E65BA02A4CC84500F1A1EC /* NetworkError.swift */,
+				44E65BAC2A4CCAC900F1A1EC /* RequestManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				44E65BA72A4CC91E00F1A1EC /* APIConstants.swift in Sources */,
 				44E65B882A4CC5A200F1A1EC /* CaturyApp.swift in Sources */,
 				44E65B9E2A4CC7EA00F1A1EC /* DataParser.swift in Sources */,
+				44E65BAD2A4CCAC900F1A1EC /* RequestManager.swift in Sources */,
 				44E65BA42A4CC8B600F1A1EC /* RequestType.swift in Sources */,
 				44E65BA92A4CC95F00F1A1EC /* RequestProtocol.swift in Sources */,
 			);
