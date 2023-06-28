@@ -14,6 +14,7 @@
 		44E65B982A4CC72200F1A1EC /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 44E65B972A4CC72200F1A1EC /* .swiftlint.yml */; };
 		44E65B9E2A4CC7EA00F1A1EC /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65B9D2A4CC7EA00F1A1EC /* DataParser.swift */; };
 		44E65BA12A4CC84500F1A1EC /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65BA02A4CC84500F1A1EC /* NetworkError.swift */; };
+		44E65BA42A4CC8B600F1A1EC /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65BA32A4CC8B600F1A1EC /* RequestType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		44E65B972A4CC72200F1A1EC /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		44E65B9D2A4CC7EA00F1A1EC /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
 		44E65BA02A4CC84500F1A1EC /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		44E65BA32A4CC8B600F1A1EC /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		44E65B9B2A4CC7DD00F1A1EC /* API */ = {
 			isa = PBXGroup;
 			children = (
+				44E65BA22A4CC8B000F1A1EC /* Request */,
 				44E65B9F2A4CC83A00F1A1EC /* Network */,
 				44E65B9C2A4CC7DE00F1A1EC /* Parser */,
 			);
@@ -122,6 +125,14 @@
 				44E65BA02A4CC84500F1A1EC /* NetworkError.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		44E65BA22A4CC8B000F1A1EC /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				44E65BA32A4CC8B600F1A1EC /* RequestType.swift */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +233,7 @@
 				44E65BA12A4CC84500F1A1EC /* NetworkError.swift in Sources */,
 				44E65B882A4CC5A200F1A1EC /* CaturyApp.swift in Sources */,
 				44E65B9E2A4CC7EA00F1A1EC /* DataParser.swift in Sources */,
+				44E65BA42A4CC8B600F1A1EC /* RequestType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
