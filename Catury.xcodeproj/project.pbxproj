@@ -12,6 +12,7 @@
 		44E65B8C2A4CC5A300F1A1EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E65B8B2A4CC5A300F1A1EC /* Assets.xcassets */; };
 		44E65B8F2A4CC5A300F1A1EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E65B8E2A4CC5A300F1A1EC /* Preview Assets.xcassets */; };
 		44E65B982A4CC72200F1A1EC /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 44E65B972A4CC72200F1A1EC /* .swiftlint.yml */; };
+		44E65B9E2A4CC7EA00F1A1EC /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65B9D2A4CC7EA00F1A1EC /* DataParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		44E65B8B2A4CC5A300F1A1EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44E65B8E2A4CC5A300F1A1EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		44E65B972A4CC72200F1A1EC /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		44E65B9D2A4CC7EA00F1A1EC /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +55,12 @@
 		44E65B862A4CC5A200F1A1EC /* Catury */ = {
 			isa = PBXGroup;
 			children = (
-				44E65B962A4CC71000F1A1EC /* Supporting Files */,
 				44E65B872A4CC5A200F1A1EC /* CaturyApp.swift */,
 				44E65B892A4CC5A200F1A1EC /* ContentView.swift */,
 				44E65B8B2A4CC5A300F1A1EC /* Assets.xcassets */,
+				44E65B992A4CC7B900F1A1EC /* Network */,
 				44E65B8D2A4CC5A300F1A1EC /* Preview Content */,
+				44E65B962A4CC71000F1A1EC /* Supporting Files */,
 			);
 			path = Catury;
 			sourceTree = "<group>";
@@ -76,6 +79,38 @@
 				44E65B972A4CC72200F1A1EC /* .swiftlint.yml */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44E65B992A4CC7B900F1A1EC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				44E65B9A2A4CC7DB00F1A1EC /* Data */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		44E65B9A2A4CC7DB00F1A1EC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				44E65B9B2A4CC7DD00F1A1EC /* API */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		44E65B9B2A4CC7DD00F1A1EC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				44E65B9C2A4CC7DE00F1A1EC /* Parser */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		44E65B9C2A4CC7DE00F1A1EC /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				44E65B9D2A4CC7EA00F1A1EC /* DataParser.swift */,
+			);
+			path = Parser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +209,7 @@
 			files = (
 				44E65B8A2A4CC5A200F1A1EC /* ContentView.swift in Sources */,
 				44E65B882A4CC5A200F1A1EC /* CaturyApp.swift in Sources */,
+				44E65B9E2A4CC7EA00F1A1EC /* DataParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
