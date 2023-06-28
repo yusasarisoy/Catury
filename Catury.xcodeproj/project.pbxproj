@@ -17,6 +17,7 @@
 		44E65BA42A4CC8B600F1A1EC /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65BA32A4CC8B600F1A1EC /* RequestType.swift */; };
 		44E65BA72A4CC91E00F1A1EC /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65BA62A4CC91E00F1A1EC /* APIConstants.swift */; };
 		44E65BA92A4CC95F00F1A1EC /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65BA82A4CC95F00F1A1EC /* RequestProtocol.swift */; };
+		44E65BAB2A4CCA2000F1A1EC /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65BAA2A4CCA2000F1A1EC /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		44E65BA32A4CC8B600F1A1EC /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
 		44E65BA62A4CC91E00F1A1EC /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		44E65BA82A4CC95F00F1A1EC /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		44E65BAA2A4CCA2000F1A1EC /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		44E65B9F2A4CC83A00F1A1EC /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				44E65BAA2A4CCA2000F1A1EC /* APIManager.swift */,
 				44E65BA02A4CC84500F1A1EC /* NetworkError.swift */,
 			);
 			path = Network;
@@ -235,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44E65BAB2A4CCA2000F1A1EC /* APIManager.swift in Sources */,
 				44E65B8A2A4CC5A200F1A1EC /* ContentView.swift in Sources */,
 				44E65BA12A4CC84500F1A1EC /* NetworkError.swift in Sources */,
 				44E65BA72A4CC91E00F1A1EC /* APIConstants.swift in Sources */,
