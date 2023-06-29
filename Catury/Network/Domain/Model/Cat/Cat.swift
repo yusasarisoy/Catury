@@ -4,7 +4,7 @@ typealias Cats = [Cat]
 
 // MARK: - Cat
 
-struct Cat: Decodable {
+struct Cat: Decodable, Identifiable {
   let weight: Weight?
   let id: String?
   let name: String?
