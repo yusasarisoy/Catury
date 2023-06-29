@@ -9,10 +9,14 @@ final class RequestManagerTests: XCTestCase {
 
   override func setUp() {
     super.setUp()
+
+    requestManager = RequestManagerMock(apiManager: APIManagerMock())
   }
 
   override func tearDown() {
     super.tearDown()
+
+    requestManager = .none
   }
 
   func testRequestCats() async throws {
