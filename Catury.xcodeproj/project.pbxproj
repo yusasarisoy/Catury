@@ -14,6 +14,7 @@
 		44DBDBB92A4DE65200C4CDC0 /* CatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBDBB82A4DE65200C4CDC0 /* CatsView.swift */; };
 		44DBDBCD2A4DE7EB00C4CDC0 /* APIManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBDBCC2A4DE7EB00C4CDC0 /* APIManagerMock.swift */; };
 		44DBDBCF2A4DE84B00C4CDC0 /* RequestManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBDBCE2A4DE84B00C4CDC0 /* RequestManagerMock.swift */; };
+		44DBDBD02A4DE8B900C4CDC0 /* CatsMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 44E65BC72A4CE1A600F1A1EC /* CatsMock.json */; };
 		44E65B882A4CC5A200F1A1EC /* CaturyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65B872A4CC5A200F1A1EC /* CaturyApp.swift */; };
 		44E65B8A2A4CC5A200F1A1EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65B892A4CC5A200F1A1EC /* ContentView.swift */; };
 		44E65B8C2A4CC5A300F1A1EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E65B8B2A4CC5A300F1A1EC /* Assets.xcassets */; };
@@ -393,6 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DBDBD02A4DE8B900C4CDC0 /* CatsMock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
