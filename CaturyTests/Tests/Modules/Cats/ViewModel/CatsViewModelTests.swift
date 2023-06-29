@@ -30,7 +30,8 @@ final class CatsViewModelTests: XCTestCase {
   }
 
   func testUpdatePageOnFetchMoreCats() async {
-    XCTAssertEqual(viewModel.page,
+    XCTAssertEqual(
+      viewModel.page,
       0,
       "the view model's page property should be 0 before fetching, but it's \(viewModel.page)"
     )
