@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44DBDBAE2A4DE4AD00C4CDC0 /* CatsFetcherMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBDBAD2A4DE4AD00C4CDC0 /* CatsFetcherMock.swift */; };
+		44DBDBB12A4DE4D900C4CDC0 /* CatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBDBB02A4DE4D900C4CDC0 /* CatsViewModel.swift */; };
 		44E65B882A4CC5A200F1A1EC /* CaturyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65B872A4CC5A200F1A1EC /* CaturyApp.swift */; };
 		44E65B8A2A4CC5A200F1A1EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65B892A4CC5A200F1A1EC /* ContentView.swift */; };
 		44E65B8C2A4CC5A300F1A1EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E65B8B2A4CC5A300F1A1EC /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44DBDBAD2A4DE4AD00C4CDC0 /* CatsFetcherMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsFetcherMock.swift; sourceTree = "<group>"; };
+		44DBDBB02A4DE4D900C4CDC0 /* CatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsViewModel.swift; sourceTree = "<group>"; };
 		44E65B842A4CC5A200F1A1EC /* Catury.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catury.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E65B872A4CC5A200F1A1EC /* CaturyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaturyApp.swift; sourceTree = "<group>"; };
 		44E65B892A4CC5A200F1A1EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +60,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44DBDBAC2A4DE49F00C4CDC0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				44DBDBAD2A4DE4AD00C4CDC0 /* CatsFetcherMock.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		44DBDBAF2A4DE4CB00C4CDC0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				44DBDBB02A4DE4D900C4CDC0 /* CatsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		44E65B7B2A4CC5A200F1A1EC = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +223,8 @@
 		44E65BB72A4CDB2900F1A1EC /* Cats */ = {
 			isa = PBXGroup;
 			children = (
+				44DBDBAC2A4DE49F00C4CDC0 /* Services */,
+				44DBDBAF2A4DE4CB00C4CDC0 /* ViewModel */,
 			);
 			path = Cats;
 			sourceTree = "<group>";
@@ -302,8 +324,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DBDBAE2A4DE4AD00C4CDC0 /* CatsFetcherMock.swift in Sources */,
 				44E65BAB2A4CCA2000F1A1EC /* APIManager.swift in Sources */,
 				44E65B8A2A4CC5A200F1A1EC /* ContentView.swift in Sources */,
+				44DBDBB12A4DE4D900C4CDC0 /* CatsViewModel.swift in Sources */,
 				44E65BA12A4CC84500F1A1EC /* NetworkError.swift in Sources */,
 				44E65BB52A4CCC5300F1A1EC /* Cat.swift in Sources */,
 				44E65BA72A4CC91E00F1A1EC /* APIConstants.swift in Sources */,
