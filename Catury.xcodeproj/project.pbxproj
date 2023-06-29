@@ -152,11 +152,19 @@
 		44DBDBCA2A4DE7CB00C4CDC0 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				44DBDBD32A4DE9C000C4CDC0 /* Mock */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		44DBDBD32A4DE9C000C4CDC0 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
 				44DBDBCC2A4DE7EB00C4CDC0 /* APIManagerMock.swift */,
 				44DBDBD12A4DE91100C4CDC0 /* CatsRequestMock.swift */,
 				44DBDBCE2A4DE84B00C4CDC0 /* RequestManagerMock.swift */,
 			);
-			path = API;
+			path = Mock;
 			sourceTree = "<group>";
 		};
 		44E65B7B2A4CC5A200F1A1EC = {
