@@ -24,8 +24,8 @@ final class RequestManagerTests: XCTestCase {
     XCTAssertEqual(firstCat?.id, "raga")
     XCTAssertEqual(firstCat?.origin, "United States")
 
-    XCTAssertEqual(firstCat?.name, "York Chocolate")
-    XCTAssertEqual(firstCat?.id, "ycho")
-    XCTAssertEqual(firstCat?.origin, "United States")
+    XCTAssertEqual(lastCat?.name, "York Chocolate")
+    XCTAssertEqual(lastCat?.id, "ycho")
+    XCTAssertEqual(lastCat?.origin, "United States")
   }
 }
