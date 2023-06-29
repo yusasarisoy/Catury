@@ -41,6 +41,7 @@ struct Cat: Decodable {
   let wikipediaURL: String?
   let hypoallergenic: Int?
   let referenceImageID: String?
+  let image: CatImage?
 }
 
 // MARK: - Weight
@@ -48,6 +49,14 @@ struct Cat: Decodable {
 struct Weight: Decodable {
   let imperial: String?
   let metric: String?
+}
+
+// MARK: - CatImage
+
+struct CatImage: Decodable {
+    let id: String?
+    let width, height: Int?
+    let url: String?
 }
 
 // MARK: - Hashable
