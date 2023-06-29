@@ -15,6 +15,7 @@ extension CatsRequest: RequestProtocol {
     switch self {
     case let .fetchCats(page):
       return [
+        "api_key": APIConstants.apiKey,
         "limit": String(10),
         "page": String(page)
       ]
