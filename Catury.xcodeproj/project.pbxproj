@@ -12,6 +12,7 @@
 		44DBDBB42A4DE56800C4CDC0 /* FetchCatsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBDBB32A4DE56800C4CDC0 /* FetchCatsService.swift */; };
 		44DBDBB72A4DE62400C4CDC0 /* CatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBDBB62A4DE62400C4CDC0 /* CatRow.swift */; };
 		44DBDBB92A4DE65200C4CDC0 /* CatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBDBB82A4DE65200C4CDC0 /* CatsView.swift */; };
+		44DBDBC12A4DE78C00C4CDC0 /* CaturyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBDBC02A4DE78C00C4CDC0 /* CaturyTests.swift */; };
 		44E65B882A4CC5A200F1A1EC /* CaturyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65B872A4CC5A200F1A1EC /* CaturyApp.swift */; };
 		44E65B8A2A4CC5A200F1A1EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65B892A4CC5A200F1A1EC /* ContentView.swift */; };
 		44E65B8C2A4CC5A300F1A1EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E65B8B2A4CC5A300F1A1EC /* Assets.xcassets */; };
@@ -30,12 +31,24 @@
 		44E65BC82A4CE1A600F1A1EC /* CatsMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 44E65BC72A4CE1A600F1A1EC /* CatsMock.json */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		44DBDBC22A4DE78C00C4CDC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44E65B7C2A4CC5A200F1A1EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44E65B832A4CC5A200F1A1EC;
+			remoteInfo = Catury;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		44DBDBAD2A4DE4AD00C4CDC0 /* CatsFetcherMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsFetcherMock.swift; sourceTree = "<group>"; };
 		44DBDBB02A4DE4D900C4CDC0 /* CatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsViewModel.swift; sourceTree = "<group>"; };
 		44DBDBB32A4DE56800C4CDC0 /* FetchCatsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchCatsService.swift; sourceTree = "<group>"; };
 		44DBDBB62A4DE62400C4CDC0 /* CatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatRow.swift; sourceTree = "<group>"; };
 		44DBDBB82A4DE65200C4CDC0 /* CatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsView.swift; sourceTree = "<group>"; };
+		44DBDBBE2A4DE78C00C4CDC0 /* CaturyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaturyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DBDBC02A4DE78C00C4CDC0 /* CaturyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaturyTests.swift; sourceTree = "<group>"; };
 		44E65B842A4CC5A200F1A1EC /* Catury.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catury.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E65B872A4CC5A200F1A1EC /* CaturyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaturyApp.swift; sourceTree = "<group>"; };
 		44E65B892A4CC5A200F1A1EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +69,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		44DBDBBB2A4DE78C00C4CDC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		44E65B812A4CC5A200F1A1EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -92,10 +112,19 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		44DBDBBF2A4DE78C00C4CDC0 /* CaturyTests */ = {
+			isa = PBXGroup;
+			children = (
+				44DBDBC02A4DE78C00C4CDC0 /* CaturyTests.swift */,
+			);
+			path = CaturyTests;
+			sourceTree = "<group>";
+		};
 		44E65B7B2A4CC5A200F1A1EC = {
 			isa = PBXGroup;
 			children = (
 				44E65B862A4CC5A200F1A1EC /* Catury */,
+				44DBDBBF2A4DE78C00C4CDC0 /* CaturyTests */,
 				44E65B852A4CC5A200F1A1EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				44E65B842A4CC5A200F1A1EC /* Catury.app */,
+				44DBDBBE2A4DE78C00C4CDC0 /* CaturyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -249,6 +279,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		44DBDBBD2A4DE78C00C4CDC0 /* CaturyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44DBDBC42A4DE78C00C4CDC0 /* Build configuration list for PBXNativeTarget "CaturyTests" */;
+			buildPhases = (
+				44DBDBBA2A4DE78C00C4CDC0 /* Sources */,
+				44DBDBBB2A4DE78C00C4CDC0 /* Frameworks */,
+				44DBDBBC2A4DE78C00C4CDC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44DBDBC32A4DE78C00C4CDC0 /* PBXTargetDependency */,
+			);
+			name = CaturyTests;
+			productName = CaturyTests;
+			productReference = 44DBDBBE2A4DE78C00C4CDC0 /* CaturyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		44E65B832A4CC5A200F1A1EC /* Catury */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44E65B922A4CC5A300F1A1EC /* Build configuration list for PBXNativeTarget "Catury" */;
@@ -277,6 +325,10 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					44DBDBBD2A4DE78C00C4CDC0 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 44E65B832A4CC5A200F1A1EC;
+					};
 					44E65B832A4CC5A200F1A1EC = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -296,11 +348,19 @@
 			projectRoot = "";
 			targets = (
 				44E65B832A4CC5A200F1A1EC /* Catury */,
+				44DBDBBD2A4DE78C00C4CDC0 /* CaturyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		44DBDBBC2A4DE78C00C4CDC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		44E65B822A4CC5A200F1A1EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,6 +397,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		44DBDBBA2A4DE78C00C4CDC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DBDBC12A4DE78C00C4CDC0 /* CaturyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		44E65B802A4CC5A200F1A1EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,7 +431,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		44DBDBC32A4DE78C00C4CDC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44E65B832A4CC5A200F1A1EC /* Catury */;
+			targetProxy = 44DBDBC22A4DE78C00C4CDC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		44DBDBC52A4DE78C00C4CDC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7GW83GWCK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.yusasarisoy.CaturyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Catury.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Catury";
+			};
+			name = Debug;
+		};
+		44DBDBC62A4DE78C00C4CDC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7GW83GWCK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.yusasarisoy.CaturyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Catury.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Catury";
+			};
+			name = Release;
+		};
 		44E65B902A4CC5A300F1A1EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -549,6 +661,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		44DBDBC42A4DE78C00C4CDC0 /* Build configuration list for PBXNativeTarget "CaturyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DBDBC52A4DE78C00C4CDC0 /* Debug */,
+				44DBDBC62A4DE78C00C4CDC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		44E65B7F2A4CC5A200F1A1EC /* Build configuration list for PBXProject "Catury" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
