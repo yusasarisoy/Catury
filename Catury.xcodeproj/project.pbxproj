@@ -16,6 +16,7 @@
 		44DBDBCF2A4DE84B00C4CDC0 /* RequestManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBDBCE2A4DE84B00C4CDC0 /* RequestManagerMock.swift */; };
 		44DBDBD02A4DE8B900C4CDC0 /* CatsMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 44E65BC72A4CE1A600F1A1EC /* CatsMock.json */; };
 		44DBDBD22A4DE91100C4CDC0 /* CatsRequestMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBDBD12A4DE91100C4CDC0 /* CatsRequestMock.swift */; };
+		44DBDBD62A4DE9EA00C4CDC0 /* RequestManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBDBD52A4DE9EA00C4CDC0 /* RequestManagerTests.swift */; };
 		44E65B882A4CC5A200F1A1EC /* CaturyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65B872A4CC5A200F1A1EC /* CaturyApp.swift */; };
 		44E65B8A2A4CC5A200F1A1EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E65B892A4CC5A200F1A1EC /* ContentView.swift */; };
 		44E65B8C2A4CC5A300F1A1EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E65B8B2A4CC5A300F1A1EC /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		44DBDBCC2A4DE7EB00C4CDC0 /* APIManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerMock.swift; sourceTree = "<group>"; };
 		44DBDBCE2A4DE84B00C4CDC0 /* RequestManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManagerMock.swift; sourceTree = "<group>"; };
 		44DBDBD12A4DE91100C4CDC0 /* CatsRequestMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsRequestMock.swift; sourceTree = "<group>"; };
+		44DBDBD52A4DE9EA00C4CDC0 /* RequestManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManagerTests.swift; sourceTree = "<group>"; };
 		44E65B842A4CC5A200F1A1EC /* Catury.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catury.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E65B872A4CC5A200F1A1EC /* CaturyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaturyApp.swift; sourceTree = "<group>"; };
 		44E65B892A4CC5A200F1A1EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				44DBDBD32A4DE9C000C4CDC0 /* Mock */,
+				44DBDBD52A4DE9EA00C4CDC0 /* RequestManagerTests.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 				44DBDBCD2A4DE7EB00C4CDC0 /* APIManagerMock.swift in Sources */,
 				44DBDBD22A4DE91100C4CDC0 /* CatsRequestMock.swift in Sources */,
 				44DBDBCF2A4DE84B00C4CDC0 /* RequestManagerMock.swift in Sources */,
+				44DBDBD62A4DE9EA00C4CDC0 /* RequestManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
