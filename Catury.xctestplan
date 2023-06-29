@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "6D139391-F42E-4E12-9F2D-841061F0042F",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Catury.xcodeproj",
+      "identifier" : "44E65B832A4CC5A200F1A1EC",
+      "name" : "Catury"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Catury.xcodeproj",
+        "identifier" : "44DBDBBD2A4DE78C00C4CDC0",
+        "name" : "CaturyTests"
+      }
+    }
+  ],
+  "version" : 1
+}

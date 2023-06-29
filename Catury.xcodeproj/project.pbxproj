@@ -58,6 +58,7 @@
 		44DBDBD12A4DE91100C4CDC0 /* CatsRequestMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsRequestMock.swift; sourceTree = "<group>"; };
 		44DBDBD52A4DE9EA00C4CDC0 /* RequestManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManagerTests.swift; sourceTree = "<group>"; };
 		44DBDBDA2A4DEBB800C4CDC0 /* CatsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsViewModelTests.swift; sourceTree = "<group>"; };
+		44DBDBDC2A4DED6700C4CDC0 /* Catury.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Catury.xctestplan; sourceTree = "<group>"; };
 		44E65B842A4CC5A200F1A1EC /* Catury.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catury.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E65B872A4CC5A200F1A1EC /* CaturyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaturyApp.swift; sourceTree = "<group>"; };
 		44E65B892A4CC5A200F1A1EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -200,6 +201,7 @@
 		44E65B7B2A4CC5A200F1A1EC = {
 			isa = PBXGroup;
 			children = (
+				44DBDBDC2A4DED6700C4CDC0 /* Catury.xctestplan */,
 				44E65B862A4CC5A200F1A1EC /* Catury */,
 				44DBDBBF2A4DE78C00C4CDC0 /* CaturyTests */,
 				44E65B852A4CC5A200F1A1EC /* Products */,
