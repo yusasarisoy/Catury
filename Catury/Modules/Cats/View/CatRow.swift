@@ -21,7 +21,7 @@ struct CatRow: View {
             .clipShape(Circle())
         }
         .aspectRatio(contentMode: .fill)
-        .frame(width: 75, height: 75)
+        .frame(width: 100, height: 100)
         .clipShape(Circle())
       }
 
