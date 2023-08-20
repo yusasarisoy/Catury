@@ -30,7 +30,7 @@ struct CatsView: View {
       .navigationTitle("Cats")
       .overlay {
         if viewModel.isLoading && viewModel.cats.isEmpty {
-          ProgressView("Finding Animals near you...")
+          ProgressView("Finding cats...")
         }
       }
     }
