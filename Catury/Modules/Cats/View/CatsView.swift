@@ -11,8 +11,8 @@ struct CatsView: View {
   var body: some View {
     NavigationView {
       List {
-        ForEach(viewModel.cats) { cat in
-          CatRow(cat: cat)
+        ForEach(viewModel.cats) {
+          CatRow(cat: $0)
         }
         if !viewModel.cats.isEmpty, viewModel.hasMoreCats {
           ProgressView("Finding more cats...")
