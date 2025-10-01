@@ -1,14 +1,4 @@
-<div align="center">
-  <img width="100" height="100" alt="Catury" src="https://i.ibb.co/4S5PFtX/catury.png">
-  </br>
-  <h1><b>Catury</b></h1>
-</div>
-
-<div align="center">
-
-![](https://img.shields.io/badge/Editor-Xcode-informational?style=flat&logo=xcode&logoColor=white&color=ffbc34) ![](https://img.shields.io/badge/Language-Swift-informational?style=flat&logo=swift&logoColor=white&color=ffbc34) ![](https://img.shields.io/badge/UI%20Framework-SwiftUI-informational?style=flat&logo=swift&logoColor=white&color=ffbc34)
-
-</div>
+# Catury
 
 Catury is an iOS application developed in Swift that fetches a list of cat breeds from [TheCatAPI](https://thecatapi.com/) and displays them in a visually appealing list using up-to-date common iOS UI practices.
 
